@@ -1,7 +1,7 @@
 <template id="iframe">
 			<div>
-				<h3>urlPath : {{urlPath}}</h3>
-				<h3>routerPath : {{routerPath}}</h3>
+<!-- 				<h3>urlPath : {{urlPath}}</h3>
+				<h3>routerPath : {{routerPath}}</h3> -->
 				<h3>src : {{$route.query.src}}</h3>
 				<iframe v-if="$route.query.src" :src='$route.query.src' frameborder="0" width="1200px" height="600px"></iframe>
 				<iframe v-else :src="urlPath" frameborder="0" width="1200px" height="600px"></iframe>
