@@ -5,7 +5,6 @@
 				<h3>src : {{$route.query.src}}</h3>
 				<iframe v-if="$route.query.src" :src='$route.query.src' frameborder="0" width="1200px" height="600px"></iframe>
 				<iframe v-else :src="urlPath" frameborder="0" width="1200px" height="600px"></iframe>
-				<!--<iframe :src="'//elemefe.github.io/mint-ui/#'" frameborder="0" width="300px" height="300px"></iframe>-->
 			</div>
 		</template>
 		<script>

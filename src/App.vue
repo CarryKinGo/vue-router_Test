@@ -10,7 +10,7 @@
 				<router-link to="/ucenter" class="nav-item">流川枫</router-link> -->
         <router-link to="/home" class="nav-item">主页</router-link>
         <router-link to="/news" class="nav-item">新闻</router-link>
-        <router-link to="/Myiframe/urlPath?src=https://www.baidu.com">iframe_URL</router-link>
+        <router-link to="/Myiframe/urlPath?src=https://www.google.com">iframe_URL</router-link>
 <!--        <router-link to="/Myiframe/home">iframe_主页</router-link>
         <router-link to="/Myiframe/news">iframe_新闻</router-link> -->
 			</div>
